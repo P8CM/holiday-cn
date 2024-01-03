@@ -77,7 +77,7 @@ def update_data(year: int) -> Iterator[str]:
     yield json_filename
     generate_ics(data["days"], ics_filename)
     yield ics_filename
-    msg_filename = workspace_path(f"{year}.msg")
+    msg_filename = workspace_path(f"{year}m.json")
     generate_msg(data["days"], msg_filename)
     yield msg_filename
 
