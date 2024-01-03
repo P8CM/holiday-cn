@@ -31,6 +31,21 @@ class ChinaTimezone(tzinfo):
         return timedelta()
 
 
+def generate_msg(days, filename):
+    """Generate a msg file from days data."""
+    with open(filename, "w", encoding="utf-8", newline="\n") as f:
+        msg_data = []
+        for day in days:
+            date = day["date"].isoformat()
+            name = day["name"]
+            is_off = day["isOffDay"]
+            msg_data.append({
+                "remark": name,
+                "type": 1 if is_off else 0,
+                "date": date
+            })
+        json.dump({"errcode": 1,"data": msg_data}, f, indent=4, ensure_ascii=False)
+
 def update_data(year: int) -> Iterator[str]:
     """Update and store data for a year."""
 
@@ -62,6 +77,9 @@ def update_data(year: int) -> Iterator[str]:
     yield json_filename
     generate_ics(data["days"], ics_filename)
     yield ics_filename
+    msg_filename = workspace_path(f"{year}.msg")
+    generate_msg(data["days"], msg_filename)
+    yield msg_filename
 
 
 def update_main_ics(fr_year, to_year):
@@ -164,7 +182,7 @@ def pack_data(file):
 
     zip_file = ZipFile(file, "w")
     for i in os.listdir(workspace_path()):
-        if not re.match(r"\d+\.json", i):
+        if not re.match(r"\d+\.(json|msg)", i):
             continue
         zip_file.write(workspace_path(i), i)
 
