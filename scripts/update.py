@@ -41,10 +41,10 @@ def generate_msg(days, filename):
             is_off = day["isOffDay"]
             msg_data.append({
                 "remark": name,
-                "type": 1 if is_off else 2,
+                "type": "1" if is_off else "2",
                 "date": date
             })
-        json.dump({"errcode": 1,"data": msg_data}, f, indent=4, ensure_ascii=False)
+        json.dump({"errcode": "1","data": msg_data}, f, indent=4, ensure_ascii=False)
 
 def update_data(year: int) -> Iterator[str]:
     """Update and store data for a year."""
