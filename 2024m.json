@@ -1,184 +1,184 @@
 {
-    "errcode": 1,
+    "errcode": "1",
     "data": [
         {
             "remark": "元旦",
-            "type": 1,
+            "type": "1",
             "date": "2024-01-01"
         },
         {
             "remark": "春节",
-            "type": 2,
+            "type": "2",
             "date": "2024-02-04"
         },
         {
             "remark": "春节",
-            "type": 1,
+            "type": "1",
             "date": "2024-02-10"
         },
         {
             "remark": "春节",
-            "type": 1,
+            "type": "1",
             "date": "2024-02-11"
         },
         {
             "remark": "春节",
-            "type": 1,
+            "type": "1",
             "date": "2024-02-12"
         },
         {
             "remark": "春节",
-            "type": 1,
+            "type": "1",
             "date": "2024-02-13"
         },
         {
             "remark": "春节",
-            "type": 1,
+            "type": "1",
             "date": "2024-02-14"
         },
         {
             "remark": "春节",
-            "type": 1,
+            "type": "1",
             "date": "2024-02-15"
         },
         {
             "remark": "春节",
-            "type": 1,
+            "type": "1",
             "date": "2024-02-16"
         },
         {
             "remark": "春节",
-            "type": 1,
+            "type": "1",
             "date": "2024-02-17"
         },
         {
             "remark": "春节",
-            "type": 2,
+            "type": "2",
             "date": "2024-02-18"
         },
         {
             "remark": "清明节",
-            "type": 1,
+            "type": "1",
             "date": "2024-04-04"
         },
         {
             "remark": "清明节",
-            "type": 1,
+            "type": "1",
             "date": "2024-04-05"
         },
         {
             "remark": "清明节",
-            "type": 1,
+            "type": "1",
             "date": "2024-04-06"
         },
         {
             "remark": "清明节",
-            "type": 2,
+            "type": "2",
             "date": "2024-04-07"
         },
         {
             "remark": "劳动节",
-            "type": 2,
+            "type": "2",
             "date": "2024-04-28"
         },
         {
             "remark": "劳动节",
-            "type": 1,
+            "type": "1",
             "date": "2024-05-01"
         },
         {
             "remark": "劳动节",
-            "type": 1,
+            "type": "1",
             "date": "2024-05-02"
         },
         {
             "remark": "劳动节",
-            "type": 1,
+            "type": "1",
             "date": "2024-05-03"
         },
         {
             "remark": "劳动节",
-            "type": 1,
+            "type": "1",
             "date": "2024-05-04"
         },
         {
             "remark": "劳动节",
-            "type": 1,
+            "type": "1",
             "date": "2024-05-05"
         },
         {
             "remark": "劳动节",
-            "type": 2,
+            "type": "2",
             "date": "2024-05-11"
         },
         {
             "remark": "端午节",
-            "type": 1,
+            "type": "1",
             "date": "2024-06-10"
         },
         {
             "remark": "中秋节",
-            "type": 2,
+            "type": "2",
             "date": "2024-09-14"
         },
         {
             "remark": "中秋节",
-            "type": 1,
+            "type": "1",
             "date": "2024-09-15"
         },
         {
             "remark": "中秋节",
-            "type": 1,
+            "type": "1",
             "date": "2024-09-16"
         },
         {
             "remark": "中秋节",
-            "type": 1,
+            "type": "1",
             "date": "2024-09-17"
         },
         {
             "remark": "国庆节",
-            "type": 2,
+            "type": "2",
             "date": "2024-09-29"
         },
         {
             "remark": "国庆节",
-            "type": 1,
+            "type": "1",
             "date": "2024-10-01"
         },
         {
             "remark": "国庆节",
-            "type": 1,
+            "type": "1",
             "date": "2024-10-02"
         },
         {
             "remark": "国庆节",
-            "type": 1,
+            "type": "1",
             "date": "2024-10-03"
         },
         {
             "remark": "国庆节",
-            "type": 1,
+            "type": "1",
             "date": "2024-10-04"
         },
         {
             "remark": "国庆节",
-            "type": 1,
+            "type": "1",
             "date": "2024-10-05"
         },
         {
             "remark": "国庆节",
-            "type": 1,
+            "type": "1",
             "date": "2024-10-06"
         },
         {
             "remark": "国庆节",
-            "type": 1,
+            "type": "1",
             "date": "2024-10-07"
         },
         {
             "remark": "国庆节",
-            "type": 2,
+            "type": "2",
             "date": "2024-10-12"
         }
     ]
